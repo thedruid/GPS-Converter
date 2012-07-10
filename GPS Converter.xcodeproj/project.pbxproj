@@ -1,0 +1,295 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		417C651B15ACD030004B05AB /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 417C651A15ACD030004B05AB /* Cocoa.framework */; };
+		417C652515ACD030004B05AB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 417C652315ACD030004B05AB /* InfoPlist.strings */; };
+		417C652715ACD030004B05AB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 417C652615ACD030004B05AB /* main.m */; };
+		417C652B15ACD030004B05AB /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 417C652915ACD030004B05AB /* Credits.rtf */; };
+		417C652E15ACD030004B05AB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 417C652D15ACD030004B05AB /* AppDelegate.m */; };
+		417C653115ACD030004B05AB /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 417C652F15ACD030004B05AB /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		417C651615ACD030004B05AB /* GPS Converter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GPS Converter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		417C651A15ACD030004B05AB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		417C651D15ACD030004B05AB /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		417C651E15ACD030004B05AB /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		417C651F15ACD030004B05AB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		417C652215ACD030004B05AB /* GPS Converter-Info.plist */ = {isa = PBXFileReference; path = "GPS Converter-Info.plist"; sourceTree = "<group>"; };
+		417C652415ACD030004B05AB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		417C652615ACD030004B05AB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		417C652815ACD030004B05AB /* GPS Converter-Prefix.pch */ = {isa = PBXFileReference; path = "GPS Converter-Prefix.pch"; sourceTree = "<group>"; };
+		417C652A15ACD030004B05AB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		417C652C15ACD030004B05AB /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		417C652D15ACD030004B05AB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		417C653015ACD030004B05AB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		417C651315ACD030004B05AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				417C651B15ACD030004B05AB /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		417C650B15ACD030004B05AB = {
+			isa = PBXGroup;
+			children = (
+				417C652015ACD030004B05AB /* GPS Converter */,
+				417C651915ACD030004B05AB /* Frameworks */,
+				417C651715ACD030004B05AB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		417C651715ACD030004B05AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				417C651615ACD030004B05AB /* GPS Converter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		417C651915ACD030004B05AB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				417C651A15ACD030004B05AB /* Cocoa.framework */,
+				417C651C15ACD030004B05AB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		417C651C15ACD030004B05AB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				417C651D15ACD030004B05AB /* AppKit.framework */,
+				417C651E15ACD030004B05AB /* CoreData.framework */,
+				417C651F15ACD030004B05AB /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		417C652015ACD030004B05AB /* GPS Converter */ = {
+			isa = PBXGroup;
+			children = (
+				417C652C15ACD030004B05AB /* AppDelegate.h */,
+				417C652D15ACD030004B05AB /* AppDelegate.m */,
+				417C652F15ACD030004B05AB /* MainMenu.xib */,
+				417C652115ACD030004B05AB /* Supporting Files */,
+			);
+			path = "GPS Converter";
+			sourceTree = "<group>";
+		};
+		417C652115ACD030004B05AB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				417C652215ACD030004B05AB /* GPS Converter-Info.plist */,
+				417C652315ACD030004B05AB /* InfoPlist.strings */,
+				417C652615ACD030004B05AB /* main.m */,
+				417C652815ACD030004B05AB /* GPS Converter-Prefix.pch */,
+				417C652915ACD030004B05AB /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		417C651515ACD030004B05AB /* GPS Converter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 417C653415ACD030004B05AB /* Build configuration list for PBXNativeTarget "GPS Converter" */;
+			buildPhases = (
+				417C651215ACD030004B05AB /* Sources */,
+				417C651315ACD030004B05AB /* Frameworks */,
+				417C651415ACD030004B05AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GPS Converter";
+			productName = "GPS Converter";
+			productReference = 417C651615ACD030004B05AB /* GPS Converter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		417C650D15ACD030004B05AB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 417C651015ACD030004B05AB /* Build configuration list for PBXProject "GPS Converter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 417C650B15ACD030004B05AB;
+			productRefGroup = 417C651715ACD030004B05AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				417C651515ACD030004B05AB /* GPS Converter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		417C651415ACD030004B05AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				417C652515ACD030004B05AB /* InfoPlist.strings in Resources */,
+				417C652B15ACD030004B05AB /* Credits.rtf in Resources */,
+				417C653115ACD030004B05AB /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		417C651215ACD030004B05AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				417C652715ACD030004B05AB /* main.m in Sources */,
+				417C652E15ACD030004B05AB /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		417C652315ACD030004B05AB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				417C652415ACD030004B05AB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		417C652915ACD030004B05AB /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				417C652A15ACD030004B05AB /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		417C652F15ACD030004B05AB /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				417C653015ACD030004B05AB /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		417C653215ACD030004B05AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		417C653315ACD030004B05AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		417C653515ACD030004B05AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GPS Converter/GPS Converter-Prefix.pch";
+				INFOPLIST_FILE = "GPS Converter/GPS Converter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		417C653615ACD030004B05AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GPS Converter/GPS Converter-Prefix.pch";
+				INFOPLIST_FILE = "GPS Converter/GPS Converter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		417C651015ACD030004B05AB /* Build configuration list for PBXProject "GPS Converter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				417C653215ACD030004B05AB /* Debug */,
+				417C653315ACD030004B05AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		417C653415ACD030004B05AB /* Build configuration list for PBXNativeTarget "GPS Converter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				417C653515ACD030004B05AB /* Debug */,
+				417C653615ACD030004B05AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 417C650D15ACD030004B05AB /* Project object */;
+}
