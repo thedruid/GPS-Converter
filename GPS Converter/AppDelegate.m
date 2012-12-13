@@ -14,6 +14,7 @@
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
+    //Test från iMac
     [formatButton removeAllItems];
     [sizeButton removeAllItems];
     [formatButton addItemWithTitle:@"GPX"];
