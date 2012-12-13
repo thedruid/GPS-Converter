@@ -14,6 +14,8 @@
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
+    
+    //Lägger till lite test kod för Github
     [formatButton removeAllItems];
     [sizeButton removeAllItems];
     [formatButton addItemWithTitle:@"GPX"];
