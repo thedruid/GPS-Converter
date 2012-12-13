@@ -21,6 +21,8 @@
     [formatButton addItemWithTitle:@"GPX"];
     [formatButton addItemWithTitle:@"KML"];
     
+    //Vad gör vi nu?
+    
     [activityButton removeAllItems];
     [activityButton addItemWithTitle:@"Running"];
     [activityButton addItemWithTitle:@"Hiking"];
